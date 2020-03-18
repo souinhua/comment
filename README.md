@@ -25,7 +25,7 @@ A simple nested comment app made with Laravel and Vue Framework. This project us
 **Step 3**: Create the database manually in your local MySQL. For example:
 <pre>CREATE DATABASE comment_db;</pre>
 
-**Step 3**: Configure your `.env` file database connection
+**Step 4**: Configure your `.env` file database connection
 <pre>
 DB_DATABASE=comment_db
 DB_USERNAME=username_example
