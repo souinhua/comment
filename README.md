@@ -17,13 +17,13 @@ A simple nested comment app made with Laravel and Vue Framework. This project us
 ## How to Setup
 
 **Step 1**: Clone this repository
-`git clone git@github.com:souinhua/comment.git comment_project_name`
+<pre>git clone git@github.com:souinhua/comment.git comment_project_name</pre>
 
 **Step 2**: Go to project directory and install dependecies through composer
-`composer install`
+<pre>composer install</pre>
 
 **Step 3**: Create the database manually in your local MySQL. For example:
-`CREATE DATABASE comment_db;`
+<pre>CREATE DATABASE comment_db;</pre>
 
 **Step 3**: Configure your `.env` file database connection
 <pre>
@@ -33,10 +33,13 @@ DB_PASSWORD=secret
 </pre>
 
 **Step 5**: In the project directory, run the database migration and seeding
-`php artisan migrate --seed`
+<pre>php artisan migrate --seed</pre>
 
 **Step 6**: Install front-end dependencies and compile for development
-`npm install && npm run dev`
+<pre>npm install && npm run dev</pre>
+
+**Step 7**: Run backend test
+<pre>phpunit</pre>
 
 ## Accessing the app
 You can use Homestead to setup an environment for this app to run. To learn more, here: https://laravel.com/docs/6.x/homestead
