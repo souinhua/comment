@@ -17,7 +17,7 @@ A simple nested comment app made with Laravel and Vue Framework. This project us
 ## How to Setup
 
 **Step 1**: Clone this repository
-`git clone git@github.com:souinhua/comment.git`
+`git clone git@github.com:souinhua/comment.git comment_project_name`
 
 **Step 2**: Go to project directory and install dependecies through composer
 `composer install`
