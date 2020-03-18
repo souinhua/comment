@@ -1,1 +1,19 @@
-//
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+h1 {
+    font-size: 55px;
+    font-weight: 700;
+    letter-spacing: -2px;
+}
+
+.container-children-comment {
+    padding-left: 3rem;
+    border-left: 1px solid #dedede
+}
