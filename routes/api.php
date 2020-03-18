@@ -13,6 +13,7 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
-});
+/** No authenticantion guards as of this moment. Free for all! */
+Route::resource('comments', 'Api\CommentController')->only([
+    'index', 'store'
+]);;
