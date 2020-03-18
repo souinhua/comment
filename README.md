@@ -25,10 +25,17 @@ A simple nested comment app made with Laravel and Vue Framework. This project us
 **Step 3**: Create the database manually in your local MySQL. For example:
 `CREATE DATABASE comment_db;`
 
-**Step 4**: In the project directory, run the database migration and seeding
+**Step 3**: Configure your `.env` file database connection
+<pre>
+DB_DATABASE=comment_db
+DB_USERNAME=username_example
+DB_PASSWORD=secret
+</pre>
+
+**Step 5**: In the project directory, run the database migration and seeding
 `php artisan migrate --seed`
 
-**Step 5**: Install front-end dependencies and compile for development
+**Step 6**: Install front-end dependencies and compile for development
 `npm install && npm run dev`
 
 ## Accessing the app
